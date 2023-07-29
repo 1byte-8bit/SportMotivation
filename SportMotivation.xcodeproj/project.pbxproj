@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8199CA42801927C0002594E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8199CA22801927C0002594E /* Roboto-Bold.ttf */; };
+		A8199CA52801927C0002594E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8199CA32801927C0002594E /* Roboto-Medium.ttf */; };
+		A8199CA828019B1B0002594E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CA728019B1B0002594E /* UIView+Extensions.swift */; };
+		A8199CAA28019CED0002594E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CA928019CED0002594E /* UIColor+Extensions.swift */; };
+		A8199CAC28019D0D0002594E /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CAB28019D0D0002594E /* UIFont+Extensions.swift */; };
+		A8199CAF280246D40002594E /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CAE280246D40002594E /* CalendarCollectionViewCell.swift */; };
+		A8199CB12802EF9C0002594E /* WorkoutTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CB02802EF9C0002594E /* WorkoutTable.swift */; };
+		A8199CB3280382A20002594E /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CB2280382A20002594E /* WorkoutTableViewCell.swift */; };
+		A8199CB5280393BD0002594E /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8199CB4280393BD0002594E /* UIStackView+Extensions.swift */; };
+		A82D1E7C281B248E0071657C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D1E7B281B248E0071657C /* Date+Extensions.swift */; };
+		A82D1E7F281D36820071657C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D1E7E281D36820071657C /* TimerView.swift */; };
+		A85627C0285F17A400D25E4D /* TrainingsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85627BF285F17A400D25E4D /* TrainingsCollectionView.swift */; };
+		A87198292811352A0051BBA3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A87198282811352A0051BBA3 /* Realm */; };
+		A871982B2811352A0051BBA3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A871982A2811352A0051BBA3 /* RealmSwift */; };
+		A871982D28128B780051BBA3 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871982C28128B780051BBA3 /* WorkoutModel.swift */; };
+		A8974CF128CEF397000297FE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8974CF028CEF397000297FE /* WeatherManager.swift */; };
+		A8974CF328CFC760000297FE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8974CF228CFC760000297FE /* WeatherData.swift */; };
+		A8974CF528D97644000297FE /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8974CF428D97644000297FE /* WeatherModel.swift */; };
+		A89773C32805501C00FC521A /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89773C22805501C00FC521A /* StatisticViewController.swift */; };
+		A8B7F20627FE4EC200C072D1 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B7F20527FE4EC200C072D1 /* CalendarView.swift */; };
+		A8B7F20827FEC47E00C072D1 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B7F20727FEC47E00C072D1 /* WeatherView.swift */; };
+		A8BE41572815F04300BE676A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE41562815F04300BE676A /* RealmManager.swift */; };
+		A8BE415928167D7900BE676A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE415828167D7900BE676A /* TimerViewController.swift */; };
+		A8BFC79E2A759E10008079AE /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8BFC79D2A759E10008079AE /* api.plist */; };
+		A8D0648C27FC1E8700BEA2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0648B27FC1E8700BEA2DF /* AppDelegate.swift */; };
+		A8D0648E27FC1E8700BEA2DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0648D27FC1E8700BEA2DF /* SceneDelegate.swift */; };
+		A8D0649027FC1E8700BEA2DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0648F27FC1E8700BEA2DF /* MainViewController.swift */; };
+		A8D0649527FC1E8900BEA2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D0649427FC1E8900BEA2DF /* Assets.xcassets */; };
+		A8D0649827FC1E8900BEA2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D0649627FC1E8900BEA2DF /* LaunchScreen.storyboard */; };
+		A8E2A0DC283CA96200D594C1 /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A0DB283CA96200D594C1 /* NewProfileViewController.swift */; };
+		A8E2A0DE283F478500D594C1 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A0DD283F478500D594C1 /* UITextField+Extensions.swift */; };
+		A8E2A0E02843DC0D00D594C1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A0DF2843DC0D00D594C1 /* UserModel.swift */; };
+		A8E2A0E22843E21A00D594C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A0E12843E21900D594C1 /* ProfileViewController.swift */; };
+		A8E7092F281EBD5E00C40041 /* RepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7092E281EBD5E00C40041 /* RepsViewController.swift */; };
+		A8E70931281EBD8800C40041 /* RepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E70930281EBD8800C40041 /* RepsView.swift */; };
+		A8E70933281ED55000C40041 /* EditingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E70932281ED55000C40041 /* EditingAlert.swift */; };
+		A8E70936282239DD00C40041 /* SimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E70935282239DD00C40041 /* SimpleAlert.swift */; };
+		A8E99E8B280551A500DF4593 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E8A280551A500DF4593 /* StatisticView.swift */; };
+		A8E99E8E28069E9500DF4593 /* StatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E8D28069E9500DF4593 /* StatisticTableViewCell.swift */; };
+		A8E99E902807CE7E00DF4593 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E8F2807CE7E00DF4593 /* UILabel+Extensions.swift */; };
+		A8E99E922807E02E00DF4593 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E912807E02E00DF4593 /* MainTabBarController.swift */; };
+		A8E99E942807EF5F00DF4593 /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E932807EF5F00DF4593 /* NewWorkoutViewController.swift */; };
+		A8E99E982809206200DF4593 /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E972809206200DF4593 /* NewWorkoutView.swift */; };
+		A8E99E9A280928E200DF4593 /* DateAndRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E99280928E200DF4593 /* DateAndRepeatView.swift */; };
+		A8E99E9C28092A6600DF4593 /* RepeatsOrTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E99E9B28092A6600DF4593 /* RepeatsOrTimerView.swift */; };
+		A8EF95A1285E6E550078ED18 /* TrainingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF95A0285E6E550078ED18 /* TrainingsCollectionViewCell.swift */; };
+		A8EF95A5285E810A0078ED18 /* TrainingsCollectionViewTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF95A4285E810A0078ED18 /* TrainingsCollectionViewTemp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8199CA22801927C0002594E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A8199CA32801927C0002594E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A8199CA728019B1B0002594E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		A8199CA928019CED0002594E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		A8199CAB28019D0D0002594E /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		A8199CAE280246D40002594E /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8199CB02802EF9C0002594E /* WorkoutTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTable.swift; sourceTree = "<group>"; };
+		A8199CB2280382A20002594E /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		A8199CB4280393BD0002594E /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		A82D1E7B281B248E0071657C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		A82D1E7E281D36820071657C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		A85627BF285F17A400D25E4D /* TrainingsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsCollectionView.swift; sourceTree = "<group>"; };
+		A871982C28128B780051BBA3 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		A8974CF028CEF397000297FE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A8974CF228CFC760000297FE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		A8974CF428D97644000297FE /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A89773C22805501C00FC521A /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		A8B7F20527FE4EC200C072D1 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A8B7F20727FEC47E00C072D1 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A8BE41562815F04300BE676A /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		A8BE415828167D7900BE676A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		A8BFC79D2A759E10008079AE /* api.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = api.plist; sourceTree = "<group>"; };
+		A8D0648827FC1E8700BEA2DF /* SportMotivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportMotivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D0648B27FC1E8700BEA2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D0648D27FC1E8700BEA2DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8D0648F27FC1E8700BEA2DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A8D0649427FC1E8900BEA2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D0649727FC1E8900BEA2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D0649927FC1E8900BEA2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E2A0DB283CA96200D594C1 /* NewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
+		A8E2A0DD283F478500D594C1 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		A8E2A0DF2843DC0D00D594C1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A8E2A0E12843E21900D594C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A8E7092E281EBD5E00C40041 /* RepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsViewController.swift; sourceTree = "<group>"; };
+		A8E70930281EBD8800C40041 /* RepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepsView.swift; sourceTree = "<group>"; };
+		A8E70932281ED55000C40041 /* EditingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingAlert.swift; sourceTree = "<group>"; };
+		A8E70935282239DD00C40041 /* SimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlert.swift; sourceTree = "<group>"; };
+		A8E99E8A280551A500DF4593 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		A8E99E8D28069E9500DF4593 /* StatisticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCell.swift; sourceTree = "<group>"; };
+		A8E99E8F2807CE7E00DF4593 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		A8E99E912807E02E00DF4593 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A8E99E932807EF5F00DF4593 /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
+		A8E99E972809206200DF4593 /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		A8E99E99280928E200DF4593 /* DateAndRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndRepeatView.swift; sourceTree = "<group>"; };
+		A8E99E9B28092A6600DF4593 /* RepeatsOrTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatsOrTimerView.swift; sourceTree = "<group>"; };
+		A8EF95A0285E6E550078ED18 /* TrainingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8EF95A4285E810A0078ED18 /* TrainingsCollectionViewTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsCollectionViewTemp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D0648527FC1E8700BEA2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A871982B2811352A0051BBA3 /* RealmSwift in Frameworks */,
+				A87198292811352A0051BBA3 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8199CA0280191D40002594E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CA628019AE30002594E /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8199CA1280192150002594E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CA22801927C0002594E /* Roboto-Bold.ttf */,
+				A8199CA32801927C0002594E /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8199CA628019AE30002594E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CA728019B1B0002594E /* UIView+Extensions.swift */,
+				A8199CA928019CED0002594E /* UIColor+Extensions.swift */,
+				A8199CAB28019D0D0002594E /* UIFont+Extensions.swift */,
+				A8199CB4280393BD0002594E /* UIStackView+Extensions.swift */,
+				A8E99E8F2807CE7E00DF4593 /* UILabel+Extensions.swift */,
+				A82D1E7B281B248E0071657C /* Date+Extensions.swift */,
+				A8E2A0DD283F478500D594C1 /* UITextField+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A8199CAD280246B20002594E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CAE280246D40002594E /* CalendarCollectionViewCell.swift */,
+				A8199CB2280382A20002594E /* WorkoutTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A82D1E7D281D36300071657C /* TimerVC */ = {
+			isa = PBXGroup;
+			children = (
+				A82D1E7E281D36820071657C /* TimerView.swift */,
+				A8E70930281EBD8800C40041 /* RepsView.swift */,
+			);
+			path = TimerVC;
+			sourceTree = "<group>";
+		};
+		A8B7F20427FE4EA300C072D1 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CAD280246B20002594E /* Cells */,
+				A8B7F20527FE4EC200C072D1 /* CalendarView.swift */,
+				A8B7F20727FEC47E00C072D1 /* WeatherView.swift */,
+				A8199CB02802EF9C0002594E /* WorkoutTable.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		A8BE41552815F01700BE676A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE41562815F04300BE676A /* RealmManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8D0647F27FC1E8700BEA2DF = {
+			isa = PBXGroup;
+			children = (
+				A8D0648A27FC1E8700BEA2DF /* SportMotivation */,
+				A8D0648927FC1E8700BEA2DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D0648927FC1E8700BEA2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0648827FC1E8700BEA2DF /* SportMotivation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D0648A27FC1E8700BEA2DF /* SportMotivation */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0649F27FCF57A00BEA2DF /* Application */,
+				A8D064A227FCF5B100BEA2DF /* Models */,
+				A8D064A327FCF5EA00BEA2DF /* Views */,
+				A8D064A027FCF58900BEA2DF /* Controller */,
+				A8BE41552815F01700BE676A /* Services */,
+				A8199CA0280191D40002594E /* Extensions */,
+				A8D064A127FCF59D00BEA2DF /* Resources */,
+			);
+			path = SportMotivation;
+			sourceTree = "<group>";
+		};
+		A8D0649F27FCF57A00BEA2DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0648B27FC1E8700BEA2DF /* AppDelegate.swift */,
+				A8D0648D27FC1E8700BEA2DF /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A8D064A027FCF58900BEA2DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0648F27FC1E8700BEA2DF /* MainViewController.swift */,
+				A89773C22805501C00FC521A /* StatisticViewController.swift */,
+				A8E99E912807E02E00DF4593 /* MainTabBarController.swift */,
+				A8E99E932807EF5F00DF4593 /* NewWorkoutViewController.swift */,
+				A8BE415828167D7900BE676A /* TimerViewController.swift */,
+				A8E7092E281EBD5E00C40041 /* RepsViewController.swift */,
+				A8E2A0DB283CA96200D594C1 /* NewProfileViewController.swift */,
+				A8E2A0E12843E21900D594C1 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8D064A127FCF59D00BEA2DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8199CA1280192150002594E /* Fonts */,
+				A8D0649427FC1E8900BEA2DF /* Assets.xcassets */,
+				A8D0649627FC1E8900BEA2DF /* LaunchScreen.storyboard */,
+				A8D0649927FC1E8900BEA2DF /* Info.plist */,
+				A8BFC79D2A759E10008079AE /* api.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8D064A227FCF5B100BEA2DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A871982C28128B780051BBA3 /* WorkoutModel.swift */,
+				A8E2A0DF2843DC0D00D594C1 /* UserModel.swift */,
+				A8974CF028CEF397000297FE /* WeatherManager.swift */,
+				A8974CF228CFC760000297FE /* WeatherData.swift */,
+				A8974CF428D97644000297FE /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8D064A327FCF5EA00BEA2DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF95A2285E7FC10078ED18 /* ProfileVC */,
+				A8E70934282239B900C40041 /* Alerts */,
+				A82D1E7D281D36300071657C /* TimerVC */,
+				A8B7F20427FE4EA300C072D1 /* MainVC */,
+				A8E99E952809202700DF4593 /* NewWorkoutVC */,
+				A8E99E892805517800DF4593 /* StatisticVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8E70934282239B900C40041 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				A8E70935282239DD00C40041 /* SimpleAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		A8E99E892805517800DF4593 /* StatisticVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8E99E8C28069BBD00DF4593 /* Cells */,
+				A8E99E8A280551A500DF4593 /* StatisticView.swift */,
+			);
+			path = StatisticVC;
+			sourceTree = "<group>";
+		};
+		A8E99E8C28069BBD00DF4593 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A8E99E8D28069E9500DF4593 /* StatisticTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A8E99E952809202700DF4593 /* NewWorkoutVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8E99E972809206200DF4593 /* NewWorkoutView.swift */,
+				A8E99E99280928E200DF4593 /* DateAndRepeatView.swift */,
+				A8E99E9B28092A6600DF4593 /* RepeatsOrTimerView.swift */,
+				A8E70932281ED55000C40041 /* EditingAlert.swift */,
+			);
+			path = NewWorkoutVC;
+			sourceTree = "<group>";
+		};
+		A8EF95A2285E7FC10078ED18 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF95A3285E802D0078ED18 /* Cells */,
+				A8EF95A4285E810A0078ED18 /* TrainingsCollectionViewTemp.swift */,
+				A85627BF285F17A400D25E4D /* TrainingsCollectionView.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		A8EF95A3285E802D0078ED18 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF95A0285E6E550078ED18 /* TrainingsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D0648727FC1E8700BEA2DF /* SportMotivation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D0649C27FC1E8900BEA2DF /* Build configuration list for PBXNativeTarget "SportMotivation" */;
+			buildPhases = (
+				A8D0648427FC1E8700BEA2DF /* Sources */,
+				A8D0648527FC1E8700BEA2DF /* Frameworks */,
+				A8D0648627FC1E8700BEA2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportMotivation;
+			packageProductDependencies = (
+				A87198282811352A0051BBA3 /* Realm */,
+				A871982A2811352A0051BBA3 /* RealmSwift */,
+			);
+			productName = FirstApp05.04;
+			productReference = A8D0648827FC1E8700BEA2DF /* SportMotivation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D0648027FC1E8700BEA2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A8D0648727FC1E8700BEA2DF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A8D0648327FC1E8700BEA2DF /* Build configuration list for PBXProject "SportMotivation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D0647F27FC1E8700BEA2DF;
+			packageReferences = (
+				A87198272811352A0051BBA3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = A8D0648927FC1E8700BEA2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D0648727FC1E8700BEA2DF /* SportMotivation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D0648627FC1E8700BEA2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BFC79E2A759E10008079AE /* api.plist in Resources */,
+				A8199CA52801927C0002594E /* Roboto-Medium.ttf in Resources */,
+				A8D0649827FC1E8900BEA2DF /* LaunchScreen.storyboard in Resources */,
+				A8D0649527FC1E8900BEA2DF /* Assets.xcassets in Resources */,
+				A8199CA42801927C0002594E /* Roboto-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D0648427FC1E8700BEA2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8199CA828019B1B0002594E /* UIView+Extensions.swift in Sources */,
+				A8B7F20827FEC47E00C072D1 /* WeatherView.swift in Sources */,
+				A8199CB12802EF9C0002594E /* WorkoutTable.swift in Sources */,
+				A8E99E9A280928E200DF4593 /* DateAndRepeatView.swift in Sources */,
+				A8BE415928167D7900BE676A /* TimerViewController.swift in Sources */,
+				A8199CAC28019D0D0002594E /* UIFont+Extensions.swift in Sources */,
+				A8E7092F281EBD5E00C40041 /* RepsViewController.swift in Sources */,
+				A8BE41572815F04300BE676A /* RealmManager.swift in Sources */,
+				A85627C0285F17A400D25E4D /* TrainingsCollectionView.swift in Sources */,
+				A8199CB3280382A20002594E /* WorkoutTableViewCell.swift in Sources */,
+				A8B7F20627FE4EC200C072D1 /* CalendarView.swift in Sources */,
+				A8EF95A5285E810A0078ED18 /* TrainingsCollectionViewTemp.swift in Sources */,
+				A8E2A0E02843DC0D00D594C1 /* UserModel.swift in Sources */,
+				A8E99E982809206200DF4593 /* NewWorkoutView.swift in Sources */,
+				A8974CF528D97644000297FE /* WeatherModel.swift in Sources */,
+				A8199CAF280246D40002594E /* CalendarCollectionViewCell.swift in Sources */,
+				A8EF95A1285E6E550078ED18 /* TrainingsCollectionViewCell.swift in Sources */,
+				A8E2A0DC283CA96200D594C1 /* NewProfileViewController.swift in Sources */,
+				A8D0649027FC1E8700BEA2DF /* MainViewController.swift in Sources */,
+				A89773C32805501C00FC521A /* StatisticViewController.swift in Sources */,
+				A8E70931281EBD8800C40041 /* RepsView.swift in Sources */,
+				A8199CAA28019CED0002594E /* UIColor+Extensions.swift in Sources */,
+				A8199CB5280393BD0002594E /* UIStackView+Extensions.swift in Sources */,
+				A8E99E8E28069E9500DF4593 /* StatisticTableViewCell.swift in Sources */,
+				A8E70936282239DD00C40041 /* SimpleAlert.swift in Sources */,
+				A8E99E902807CE7E00DF4593 /* UILabel+Extensions.swift in Sources */,
+				A8974CF328CFC760000297FE /* WeatherData.swift in Sources */,
+				A8E99E8B280551A500DF4593 /* StatisticView.swift in Sources */,
+				A82D1E7F281D36820071657C /* TimerView.swift in Sources */,
+				A8E2A0E22843E21A00D594C1 /* ProfileViewController.swift in Sources */,
+				A8E70933281ED55000C40041 /* EditingAlert.swift in Sources */,
+				A82D1E7C281B248E0071657C /* Date+Extensions.swift in Sources */,
+				A8E2A0DE283F478500D594C1 /* UITextField+Extensions.swift in Sources */,
+				A8D0648C27FC1E8700BEA2DF /* AppDelegate.swift in Sources */,
+				A871982D28128B780051BBA3 /* WorkoutModel.swift in Sources */,
+				A8E99E942807EF5F00DF4593 /* NewWorkoutViewController.swift in Sources */,
+				A8D0648E27FC1E8700BEA2DF /* SceneDelegate.swift in Sources */,
+				A8E99E9C28092A6600DF4593 /* RepeatsOrTimerView.swift in Sources */,
+				A8974CF128CEF397000297FE /* WeatherManager.swift in Sources */,
+				A8E99E922807E02E00DF4593 /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8D0649627FC1E8900BEA2DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D0649727FC1E8900BEA2DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D0649A27FC1E8900BEA2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D0649B27FC1E8900BEA2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D0649D27FC1E8900BEA2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AD9RT8295;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SportMotivation/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrprytkov.SportMotivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8D0649E27FC1E8900BEA2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AD9RT8295;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SportMotivation/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrprytkov.SportMotivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D0648327FC1E8700BEA2DF /* Build configuration list for PBXProject "SportMotivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0649A27FC1E8900BEA2DF /* Debug */,
+				A8D0649B27FC1E8900BEA2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D0649C27FC1E8900BEA2DF /* Build configuration list for PBXNativeTarget "SportMotivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0649D27FC1E8900BEA2DF /* Debug */,
+				A8D0649E27FC1E8900BEA2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A87198272811352A0051BBA3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A87198282811352A0051BBA3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87198272811352A0051BBA3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A871982A2811352A0051BBA3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87198272811352A0051BBA3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A8D0648027FC1E8700BEA2DF /* Project object */;
+}
